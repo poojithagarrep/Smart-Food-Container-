@@ -18,9 +18,9 @@ const unsigned long debounceDelay = 1000; // Debounce time in milliseconds (1 se
 const unsigned long messageInterval = 2 * 24 * 60 * 60 * 1000; // Notification interval (2 days in milliseconds)
 const int significantChangeThreshold = 2; // Minimum distance change (cm) to trigger notification
 
-char auth[] = "eGGz5RX0qXQjKHCgoTcHCBCvOK8P6R6X";
-char ssid[] = "HAREKRISHNA 4960"; // your WiFi name
-char pass[] = "%820M7m4"; // your WiFi password
+char auth[] = "************";//from blynk template
+char ssid[] = "*********"; // your WiFi name
+char pass[] = "*****"; // your WiFi password
 
 BlynkTimer timer;
 
